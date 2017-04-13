@@ -1,9 +1,9 @@
 <?php
 namespace Leap\Hooks\Alias {
-    function hook_prerouteUrl(&$url)
+    function hook_prerouteUrl()
     {
         $alias = getAliases();
-
+        return;
         if (isset($alias[$url])) {
             $url = $alias[$url];
         }

@@ -1,5 +1,5 @@
 {
-    "name": "leap/alias",
+    "name": "leapphp/alias",
     "description": "Aliases plugin for Leap framework",
     "type": "leap-plugin",
     "license": "GPL-2.0+"
